@@ -1,7 +1,8 @@
 
 #include<stdio.h>
 void main()
-{int n,r,i,j,k,temp;
+{
+int n,r,i,j,k,temp;
 int a[10][10],b[6],c[10][10],e[6];
 //test cases
 //scanf("%d",&n);
