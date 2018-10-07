@@ -1,2 +1,2 @@
-# magic-trick
-a program in c
+# Magic-Trick
+a program in c to do a magic trick.
