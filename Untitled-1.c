@@ -12,12 +12,12 @@ for(k=1;k<=100;k++)
 scanf("%d",&r);
 
 //enter the array
-for(i=1;i<=4;i++)
-        {for(j=1;j<=4;j++)
+for(i=1;i<5;i++)
+        {for(j=1;j<5;j++)
                 scanf("%d",&a[i][j]);
         }
 //shifting the row in an array
-for(i=1;i<=4;i++)
+for(i=1;i<5;i++)
         b[i]=a[r][i];
  int m;
 //printing
@@ -27,21 +27,21 @@ for(i=1;i<=4;i++)
 scanf("%d",&m);
 
 //enter the 2 array 
-for(i=1;i<=4;i++)
-        {for(j=1;j<=4;j++)
+for(i=1;i<5;i++)
+        {for(j=1;j<5;j++)
                 scanf("%d",&c[i][j]);
   }
 
 //shifting the row in an array
-for(i=1;i<=4;i++)
+for(i=1;i<5;i++)
         e[i]=c[m][i];
 int count = 0;
 
 //checking for similar
-for(i=1;i<=4;i++)
-        for(j=1;j<=4;j++)
+for(i=1;i<5;i++)
+        for(j=1;j<5;j++)
                 if(b[i]==e[j])
-                        {count++;
+                        {count=cpunt+1;
                         temp=b[i];
                         }
 
